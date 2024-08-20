@@ -143,8 +143,8 @@ modules:
     sources: &gamemode_sources
       - type: git
         url: https://github.com/FeralInteractive/gamemode
-        tag: 1.8.1
-        commit: 5180d89e66830d87f69687b95fb86f622552b94b
+        tag: 1.8.2
+        commit: 715a1389b789e661a3996a90fbd2c0bf6c9cf6d2
         x-checker-data:
           type: git
           is-important: true
@@ -187,8 +187,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/ImageMagick/ImageMagick
-        tag: 7.1.1-31
-        commit: 2f6d2de838390a054af74822e80d74b7799633cb
+        tag: 7.1.1-36
+        commit: 852a4e91b1cdb0c055a27dae956f130941e66ac0
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+-[\d]+)$
@@ -257,8 +257,8 @@ modules:
         sources:
           - type: git
             url: https://gitlab.gnome.org/GNOME/vte
-            tag: 0.76.1
-            commit: 2b413dab1dcc6a5d4ff200ad0703240a81c82d06
+            tag: 0.77.91
+            commit: 844ced5857d8426747fc4a3bc50d48970b6a32b8
             x-checker-data:
               type: git
               tag-pattern: ^([\d.]+)$
